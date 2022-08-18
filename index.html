@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <title>To do list</title>
+  </head>
+  <body class="flex justify-center items-center flex-col bg-slate-200">
+    <header class="mt-12">
+      <h1 class="text-6xl text-rose-700 font-bold">TO-DO-LIST</h1>
+    </header>
+    <main class="mt-12">
+      <div class="w-full p-5 shadow-xl rounded-md bg-white">
+        <div class="list-heading">
+          <input
+            id="add-list-items"
+            class="rounded border-2 border-slate-400 text-base p-2.5"
+            type="text"
+          />
+          <button
+            id="add-btn"
+            class="rounded bg-rose-700 p-3 text-white text-base w-20"
+          >
+            Add
+          </button>
+        </div>
+
+        <div id="list-outer-container" class="w-full mt-7">
+          <!-- <div
+            class="p-2.5 rounded shadow-xl mb-5 flex justify-between items-center"
+          >
+            <p class="text-base font-semibold">new item added here</p>
+            <div id="items-btn-container" class="flex items-center gap-2.5">
+              <i
+                class="fa-solid fa-pen-to-square text-rose-700 text-lg cursor-pointer"
+              ></i>
+              <i
+                class="fa-solid fa-xmark text-rose-700 text-lg cursor-pointer"
+              ></i>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </main>
+    <script src="js/index.js"></script>
+  </body>
+</html>
